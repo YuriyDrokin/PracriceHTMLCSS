@@ -7,3 +7,28 @@
 html {
   font-size: 10px;
 }
+body {
+  background-color: #607274;
+}
+li {
+  list-style: none;
+}
+
+section {
+  width: 30rem;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.personal {
+  background-color: #faeed1;
+}
+.personal img {
+  width: 12rem;
+}
+
+.skills {
+  background-color: #ded0b6;
+}

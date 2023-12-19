@@ -12,6 +12,7 @@ body {
 }
 li {
   list-style: none;
+  color: #000;
 }
 
 section {
@@ -25,8 +26,21 @@ section {
 .personal {
   background-color: #faeed1;
 }
+.personal .medium {
+  background-color: #b2a59b;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  padding: 0.1rem 0.7rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0.8rem;
+}
 .personal img {
   width: 12rem;
+  display: block;
+  margin: auto;
 }
 
 .skills {
